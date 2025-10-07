@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim Encantado - Entre em Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="imagens/uniube-logo.jpg" alt="Logotipo Uniube" class="logo-uniube">
+            <div class="logo-magico">
+                <div class="flor">
+                    &nbsp;&nbsp;&nbsp;✧<br>
+                   ✧✧✧<br>
+                  ✧✧<span class="estrela">★</span>✧✧<br>
+                   ✧✧✧<br>
+                    &nbsp;&nbsp;&nbsp;✧
+                </div>
+                <div class="titulo">Jardim Encantado</div>
+                <div class="subtitulo">Entre em contato conosco</div>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="tipos-flores.html">Tipos de Flores</a></li>
+                <li><a href="cultivo.html">Cultivo</a></li>
+                <li><a href="significado-flores.html">Significados</a></li>
+                <li><a href="jardim.html">Jardim</a></li>
+                <li><a href="arranjos.html">Arranjos</a></li>
+                <li><a href="links.html">Links Úteis</a></li>
+                <li><a href="fotos.html">Galeria</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem dúvidas sobre flores, sugestões ou quer compartilhar sua experiência? Ficaremos felizes em ouvir você! 💌</p>
+            
+            <div class="cards">
+                <div class="card" style="grid-column: 1 / -1;">
+                    <h3>💌 Fale Conosco</h3>
+                    <p>Estamos aqui para ajudar você em sua jornada floral. Entre em contato através do formulário abaixo ou pelos nossos canais de atendimento. ✨</p>
+                </div>
+            </div>
+            
+            <div class="formulario-container">
+                <form id="form-contato">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="campo-form">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
+                        </div>
+                        
+                        <div class="campo-form">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required placeholder="email">
+                        </div>
+                    </div>
+                    
+                    <div class="campo-form">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
+                    </div>
+                    
+                    <div class="campo-form">
+                        <label for="assunto">Assunto *</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="duvida">Dúvida sobre cultivo</option>
+                            <option value="identificacao">Identificação de flor</option>
+                            <option value="problema">Problema com plantas</option>
+                            <option value="sugestao">Sugestão para o site</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="parceria">Proposta de parceria</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="campo-form">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Descreva sua dúvida, sugestão ou comentário..." required></textarea>
+                    </div>
+                    
+                    <div class="campo-form">
+                        <label>
+                            <input type="checkbox" name="newsletter" checked>
+                            💫 Desejo receber novidades e dicas sobre flores por e-mail
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar Mensagem ✨</button>
+                </form>
+            </div>
+            
+            <section class="info-contato">
+                <div class="info-item">
+                    <h4>📧 E-mail</h4>
+                    <p>contato@jardimencantado.com.br</p>
+                    <p>suporte@jardimencantado.com.br</p>
+                    <p><small>Respondemos em até 24 horas</small></p>
+                </div>
+                
+                <div class="info-item">
+                    <h4>📞 Telefone</h4>
+                    <p>(34) 3222-9999</p>
+                    <p>WhatsApp: (34) 99999-9999</p>
+                    <p><small>Segunda a Sexta, 8h-18h</small></p>
+                </div>
+                
+                <div class="info-item">
+                    <h4>🕒 Horário de Atendimento</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 12h</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+                
+                <div class="info-item">
+                    <h4>📍 Endereço</h4>
+                    <p>Rua das Flores, 123 - Centro</p>
+                    <p>Uberaba - MG, 38000-000</p>
+                    <p><small>Atendimento presencial com agendamento</small></p>
+                </div>
+            </section>
+            
+            <section class="lista-container">
+                <h3>❓ Perguntas Frequentes</h3>
+                <div class="lista-flores">
+                    <div class="item-lista">
+                        <h4>🌺 Como cuidar de orquídeas?</h4>
+                        <p>Orquídeas precisam de luz indireta, rega moderada (uma vez por semana) e adubação específica a cada 15 dias. Evite sol direto e excesso de água. 💧</p>
+                    </div>
+                    
+                    <div class="item-lista">
+                        <h4>🌹 Qual a melhor época para plantar rosas?</h4>
+                        <p>O ideal é plantar rosas no outono ou início da primavera, quando as temperaturas são mais amenas e há maior disponibilidade de umidade no solo. 🌱</p>
+                    </div>
+                    
+                    <div class="item-lista">
+                        <h4>🌵 Como fazer mudas de suculentas?</h4>
+                        <p>Retire uma folha saudável, deixe cicatrizar por 2-3 dias e depois coloque sobre substrato arenoso. Mantenha o solo levemente úmido até que surjam raízes. ✨</p>
+                    </div>
+                    
+                    <div class="item-lista">
+                        <h4>🌸 Por que minhas flores não abrem?</h4>
+                        <p>Pode ser falta de luz, excesso de nitrogênio no adubo ou estresse hídrico. Verifique as condições de cultivo específicas para a espécie. 🔍</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tabela-container">
+                <h3>📅 Tempo de Resposta por Canal</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Canal</th>
+                            <th>Tempo de Resposta</th>
+                            <th>Melhor Para</th>
+                            <th>Disponibilidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>E-mail</strong> 📧</td>
+                            <td>Até 24 horas</td>
+                            <td>Dúvidas detalhadas</td>
+                            <td>24/7</td>
+                        </tr>
+                        <tr>
+                            <td><strong>WhatsApp</strong> 💚</td>
+                            <td>Até 2 horas</td>
+                            <td>Dúvidas rápidas</td>
+                            <td>8h-18h (seg-sex)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Telefone</strong> 📞</td>
+                            <td>Imediato</td>
+                            <td>Urgências</td>
+                            <td>8h-18h (seg-sex)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Presencial</strong> 🏡</td>
+                            <td>Com agendamento</td>
+                            <td>Consultorias</td>
+                            <td>9h-17h (seg-sex)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <section class="dicas">
+                <h3>💡 Não Encontrou o que Procurava?</h3>
+                <div class="dica-item">
+                    <p>Se sua dúvida não está nas perguntas frequentes, não hesite em nos contatar! Nossa equipe de especialistas em jardinagem está pronta para ajudar você com qualquer questão sobre flores e plantas. 🌟</p>
+                </div>
+                <div class="dica-item">
+                    <p><strong>Dica Extra:</strong> Ao nos enviar uma pergunta sobre problemas com plantas, inclua fotos se possível. Isso nos ajuda a dar um diagnóstico mais preciso! 📸</p>
+                </div>
+                <div class="dica-item">
+                    <p><strong>Comunidade:</strong> Participe também do nosso fórum online para trocar experiências com outros amantes de jardins! 👥</p>
+                </div>
+            </section>
+
+            <section class="cards">
+                <div class="card">
+                    <h3>👥 Nossa Equipe</h3>
+                    <p><strong>Ana Silva</strong> - Especialista em Rosas 🌹</p>
+                    <p><strong>Carlos Santos</strong> - Jardineiro Mestre 🌿</p>
+                    <p><strong>Marina Oliveira</strong> - Florista Chefe 💐</p>
+                    <p><strong>Pedro Costa</strong> - Paisagista 🏡</p>
+                </div>
+                
+                <div class="card">
+                    <h3>📋 Serviços Oferecidos</h3>
+                    <p>✓ Consultoria de jardinagem</p>
+                    <p>✓ Identificação de plantas</p>
+                    <p>✓ Solução de problemas</p>
+                    <p>✓ Projetos paisagísticos</p>
+                    <p>✓ Cursos online</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>Desenvolvido por [Seu Nome Completo] - RA: [Seu RA]</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('form-contato').addEventListener('submit', function(e) {
+            e.preventDefault();
+         
+            const nome = document.getElementById('nome').value;
+            
+            this.style.opacity = '0.7';
+            this.style.transition = 'opacity 0.3s';
+            
+            setTimeout(() => {
+                alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso! ✨\n\nResponderemos em breve.`);
+                this.reset();
+                this.style.opacity = '1';
+            }, 500);
+        });
+
+        document.getElementById('telefone').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length <= 11) {
+                value = value.replace(/(\d{2})(\d)/, '($1) $2');
+                value = value.replace(/(\d{5})(\d)/, '$1-$2');
+                e.target.value = value;
+            }
+        });
+    </script>
+</body>
+</html>
