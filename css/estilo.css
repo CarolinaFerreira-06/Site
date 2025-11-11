@@ -704,7 +704,35 @@ footer p {
     margin-bottom: 10px;
 }
 
+h1 { font-size: 6vw; }
+h2 { font-size: 4.5vw; }
+p { font-size: 3.5vw; line-height: 1.6; }
+
+img { max-width: 100%; height: auto; }
+
+.tabela-container { overflow-x: auto; margin: 20px 0; }
+table { width: 100%; min-width: 600px; }
+
+@media (max-width: 768px) {
+    nav ul { flex-direction: column; text-align: center; }
+    nav li { margin: 5px 0; }
+    .cards { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 768px) {
+    h1 { font-size: 3.5vw; }
+    h2 { font-size: 2.5vw; }
+    p { font-size: 1.8vw; }
+}
+
+@media (min-width: 1024px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    p { font-size: 1.1rem; }
+}
+
 .link-item p {
     color: var(--cor-texto);
     margin-bottom: 15px;
+
 }
