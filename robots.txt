@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carolinaferreira-06.github.io/Site/sitemap.xml
